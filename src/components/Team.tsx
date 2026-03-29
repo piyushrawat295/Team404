@@ -9,11 +9,11 @@ export default function Team() {
 
   const team = [
     {
-      handle: "@rahul_404",
-      name: "Rahul Verma",
-      bio: "Full-stack lead. Next.js & Flutter expert. Writes the architecture docs at 2am and the code at 3am.",
-      longBio: "A technical visionary with over 8 years of experience building scalable digital products. Rahul specializes in bridging the gap between high-level architectural design and low-level code optimization. He is obsessed with zero-latency interfaces and resilient distributed systems.",
-      role: "FOUNDER",
+      handle: "@piyush_404",
+      name: "Piyush Rawat",
+      bio: "Full-stack architect. Expert in Next.js, Node.js, and high-performance cloud systems. Building the foundation of 4O4.",
+      longBio: "Piyush is a full-stack visionary dedicated to building scalable digital ecosystems. With extensive experience in modern web technologies and cloud infrastructure, he bridges the gap between complex backend logic and seamless frontend experiences. He is obsessed with performance optimization and architectural integrity.",
+      role: "FULL STACK",
       icon: "👨‍💻",
       styles: {
         visualBg: "radial-gradient(ellipse 80% 80% at 50% 50%,rgba(200,255,0,0.04),transparent)",
@@ -21,48 +21,32 @@ export default function Team() {
         handle: { color: "var(--lime)" },
         role: {}
       },
-      skills: ["Next.js", "Flutter", "System Design"],
-      fullSkills: ["React/Next.js 15", "Flutter/Dart", "Go/Rust Backend", "PostgreSQL", "Kubernetes"]
+      skills: ["Next.js", "Node.js", "System Design"],
+      fullSkills: ["React/Next.js 15", "Node.js/Express", "Go/Rust Backend", "PostgreSQL/Supabase", "AWS/Cloud Architecture"]
     },
     {
-      handle: "@anika_404",
-      name: "Anika Singh",
-      bio: "UI/UX + Flutter widgets. She designs it then codes it herself. Clients always ask for more screens.",
-      longBio: "Anika is a design-to-code pioneer. With a background in motion graphics and fine arts, she creates interfaces that don't just look scientific—they feel alive. Her focus is on micro-interactions and accessibility in cross-platform environments.",
-      role: "DESIGN",
-      icon: "👩‍🎨",
+      handle: "@sarthak_404",
+      name: "Sarthak Kumar",
+      bio: "Mobile experience specialist. Expert in Flutter and cross-platform UI/UX. Turning pixel-perfect designs into high-performance apps.",
+      longBio: "Sarthak is a master of mobile interfaces. With a deep understanding of Flutter and cross-platform architecture, he creates apps that feel native and perform flawlessly. His focus is on delivering high-fidelity user experiences through custom animations and efficient state management.",
+      role: "MOBILE APP",
+      icon: "📱",
       styles: {
         visualBg: "radial-gradient(ellipse 80% 80% at 50% 50%,rgba(84,197,248,0.06),transparent)",
         hex: "linear-gradient(135deg,rgba(84,197,248,0.1),rgba(84,197,248,0.03))",
         handle: { color: "var(--flutter)" },
         role: { color: "var(--flutter)", borderColor: "rgba(84,197,248,0.3)", background: "rgba(84,197,248,0.08)" }
       },
-      skills: ["Figma", "Flutter UI", "Animations"],
-      fullSkills: ["UI/UX Strategy", "Framer Motion", "Flutter Advanced Widgets", "Lottie Animations", "Tailwind CSS"]
+      skills: ["Flutter", "Dart", "UI/UX"],
+      fullSkills: ["Flutter (iOS/Android/Web)", "Riverpod/Provider", "Custom Animations", "Firebase Integration", "Figma to Code"]
     },
     {
-      handle: "@dev_404",
-      name: "Dev Sharma",
-      bio: "APIs, databases, Firebase architecture. Built backends serving 1M+ daily requests. Supabase certified.",
-      longBio: "Dev is the engine room of 4O4. He specializes in high-throughput APIs and complex data modeling. Whether it's optimizing a SQL query or architecting a real-time event-driven system, Dev ensures the foundation is unbreakable.",
-      role: "BACKEND",
-      icon: "👨‍🔧",
-      styles: {
-        visualBg: "radial-gradient(ellipse 80% 80% at 50% 50%,rgba(0,212,255,0.05),transparent)",
-        hex: "linear-gradient(135deg,rgba(0,212,255,0.08),rgba(0,212,255,0.02))",
-        handle: { color: "var(--cyan)" },
-        role: { color: "var(--cyan)", borderColor: "rgba(0,212,255,0.3)", background: "rgba(0,212,255,0.06)" }
-      },
-      skills: ["Node.js", "Firebase", "PostgreSQL"],
-      fullSkills: ["Node.js/Express", "Firebase Architecture", "Supabase", "Redis/Caching", "Auth Systems"]
-    },
-    {
-      handle: "@priya_404",
-      name: "Priya Nair",
-      bio: "Flutter specialist. BLoC, Riverpod, custom widget animations. Writes unit tests before features. Seriously.",
-      longBio: "Priya brings rigorous engineering standards to mobile development. Her code is known for its extreme test coverage and modularity. She is a core contributor to several open-source Flutter packages and loves solving performance bottlenecks.",
-      role: "FLUTTER",
-      icon: "👩‍💻",
+      handle: "@harsh_404",
+      name: "Harsh Raj",
+      bio: "Mobile engineer. Expert in Flutter, custom widget logic, and state management. Ensuring 4O4's apps are robust and scalable.",
+      longBio: "Harsh brings rigorous software engineering principles to mobile development. He specializes in building robust, testable, and maintainable cross-platform applications using Flutter. His expertise in BLoC and complex state management ensures that even the most feature-rich apps remain responsive and reliable.",
+      role: "MOBILE APP",
+      icon: "⚙️",
       styles: {
         visualBg: "radial-gradient(ellipse 80% 80% at 50% 50%,rgba(249,115,22,0.05),transparent)",
         hex: "linear-gradient(135deg,rgba(249,115,22,0.08),rgba(249,115,22,0.02))",
@@ -70,7 +54,7 @@ export default function Team() {
         role: { color: "var(--orange)", borderColor: "rgba(249,115,22,0.3)", background: "rgba(249,115,22,0.06)" }
       },
       skills: ["Flutter", "BLoC", "Testing"],
-      fullSkills: ["Flutter (iOS/Android/Web)", "State Management (BLoC/Riverpod)", "Platform Channels", "CI/CD for Mobile", "UI Testing"]
+      fullSkills: ["Flutter/Dart", "State Management (BLoC/Riverpod)", "Platform Channels", "CI/CD for Mobile", "Unit & Integration Testing"]
     }
   ];
 

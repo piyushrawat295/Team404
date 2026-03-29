@@ -869,7 +869,7 @@ nav {
 
 /* ══════════════ TEAM ══════════════ */
 .team-grid {
-  display:grid; grid-template-columns:repeat(4,1fr); gap:2px;
+  display:grid; grid-template-columns:repeat(3,1fr); gap:2px;
   background:var(--border); margin-top:4rem;
 }
 .team-card {
